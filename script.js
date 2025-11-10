@@ -6,3 +6,15 @@ accordionItems.forEach((item) => {
     item.classList.toggle("active");
   });
 });
+
+const menu = document.querySelector(".menu");
+const nav = document.querySelector(".nav");
+const rightSide = document.querySelector(".navbar .right-side");
+const navbar = document.querySelector(".navbar");
+
+menu.addEventListener('click', () => {
+  nav.classList.toggle('show');
+  menu.classList.toggle('absolute');
+  rightSide.classList.toggle('hide');
+  navbar.style.justifyContent = navbar.style.justifyContent === 'right' ? 'space-between' : 'right';
+})
