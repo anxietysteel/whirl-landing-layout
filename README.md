@@ -29,11 +29,12 @@
 
 ## 🚀 Запуск проекта
 1. Склонировать репозиторий:
-   ```bash
+   ```
    git clone https://github.com/anxietysteel/whirl-landing-layout.git
+   ```
 2.Открыть index.html в браузере.
 
 
-📄 Лицензия
+## 📄 Лицензия
 
 MIT License © 2025 anxietysteel
